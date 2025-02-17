@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ekdant Dental Clinic</title>
+
+   <!-- Font Awesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- Bootstrap CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+   <!-- Custom CSS File Link -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+<!-- Header Section -->
+<header class="header fixed-top">
+   <div class="container">
+      <div class="row align-items-center justify-content-between">
+         <a href="#home" class="logo">Ekdant<span> Dental Care.</span></a>
+
+         <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+         </nav>
+
+         <a href="#contact" class="link-btn">Make Appointment</a>
+
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+   </div>
+</header>
+
+<!-- Home Section -->
+<section class="home" id="home">
+   <div class="container">
+      <div class="row min-vh-100 align-items-center">
+         <div class="content text-center text-md-left">
+            <h3>Creating Vibrant Smiles!</h3>
+            <p>The world always looks brighter from behind a smile.</p>
+            <a href="#contact" class="link-btn">Make Appointment</a>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-md-6 image">
+            <img src="images/Kids-Dental.jpg" class="w-100 mb-5 mb-md-0" alt="Kids Dental Care">
+         </div>
+         <div class="col-md-6 content">
+            <span>About Us</span>
+            <h3>True Healthcare For Your Family</h3>
+            <p>Ekdant Dental Clinic is a multi-specialty hospital providing various dental treatments since 2004. Located in the heart of the city, we offer high-class treatment at an affordable cost while following strict sterilization and disinfection protocols.</p>
+            <p>The clinic’s ambiance is pleasant and well-ventilated with ample natural light. Our expert team comprises leading and experienced dentists and specialists from all branches, ensuring treatment of international standards.</p>
+            <a href="#contact" class="link-btn">Make Appointment</a>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+   <h1 class="heading">Our Services</h1>
+   <div class="box-container container">
+      <div class="box">
+         <img src="images/icon-6.svg" alt="Cavity Inspection">
+         <h3>Cavity Inspection</h3>
+         <p>Cavities occur due to improper cleaning, frequent junk food consumption, and sugary drinks. We offer expert diagnosis and treatment.</p>
+      </div>
+      <div class="box">
+         <img src="images/icon-4.svg" alt="Root Canal Treatment">
+         <h3>Root Canal Treatment</h3>
+         <p>Root canal treatment is performed to remove infected pulp tissue and replace it with biocompatible material, relieving pain and preserving the tooth.</p>
+      </div>
+      <div class="box">
+         <img src="images/icon-2.svg" alt="Orthognathic Surgeries">
+         <h3>Orthognathic Surgeries</h3>
+         <p>Corrective jaw surgery improves facial symmetry and aligns the bite for better function and aesthetics.</p>
+      </div>
+   </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="process">
+   <h1 class="heading">Why Choose Us?</h1>
+   <div class="box-container container">
+      <div class="box">
+         <img src="images/process-1.png" alt="">
+         <h3>High Standard of Dentistry</h3>
+         <p>We ensure smooth procedures with strict standards for treatment planning.</p>
+      </div>
+      <div class="box">
+         <img src="images/process-2.png" alt="">
+         <h3>Committed Dental Team</h3>
+         <p>Our friendly and highly trained team ensures a seamless experience.</p>
+      </div>
+   </div>
+</section>
+
+<!-- Reviews Section -->
+<section class="reviews" id="reviews">
+   <h1 class="heading">Satisfied Clients</h1>
+   <div class="box-container container">
+      <div class="box">
+         <img src="images/customer1.jpg" alt="Client Review">
+         <p>Highly recommended! Skilled dentists and great facilities.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+         </div>
+         <h3>Niraj Sanghai</h3>
+      </div>
+   </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+   <h1 class="heading">Make Appointment</h1>
+   <form action="index.php" method="post">
+      <span>Your Name :</span>
+      <input type="text" name="name" placeholder="Enter Your Name" class="box" required>
+      <span>Your Email :</span>
+      <input type="email" name="email" placeholder="Enter Your Email" class="box" required>
+      <span>Your Number :</span>
+      <input type="number" name="number" placeholder="Enter Your Number" class="box" required>
+      <span>Appointment Date :</span>
+      <input type="datetime-local" name="date" class="box" required>
+      
+
+      <input type="submit" value="Make Appointment" name="submit" class="link-btn">
+   </form>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+   <div class="box-container container">
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>Phone Number</h3>
+         <p>+91-758711851</p>
+      </div>
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>Our Address</h3>
+         <p>Chhatrapati Sambhajinagar, India - 431001</p>
+      </div>
+   </div>
+   <div class="credit"> &copy; <?php echo date('Y'); ?> by <span>Omkar Kele</span> </div>
+</section>
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+       let now = new Date();
+       let formattedDateTime = now.toISOString().slice(0, 16); // Format: YYYY-MM-DDTHH:MM
+       document.querySelector('input[name="date"]').value = formattedDateTime;
+   });
+</script>
+
+
+<!-- Custom JS File Link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
